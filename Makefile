@@ -1,5 +1,6 @@
 .ONESHELL:
 SHELL := /bin/bash
+USER := $(shell whoami)
 UID := $(shell id -u)
 
 run:
