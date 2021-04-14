@@ -1,1 +1,1 @@
-FROM dorgeln/datascience:0.0.6
+FROM dorgeln/datascience:0.0.7
