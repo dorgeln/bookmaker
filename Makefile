@@ -8,5 +8,5 @@ devel:
 	pip install jupyter-repo2docker
 
 run:
-	docker image rm repolauncher
+	docker image rm --force repolauncher
 	jupyter-repo2docker --debug  --user-name ${USER} --user-id ${UID} -P --volume .:${REPO_DIR} --volume /home/${USER}/.ssh:.ssh --image-name repolauncher .
