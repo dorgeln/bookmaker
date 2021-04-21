@@ -1,1 +1,1 @@
-FROM dorgeln/datascience:0.0.14
+FROM dorgeln/fastbook:0.0.15
